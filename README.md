@@ -29,7 +29,7 @@ cd View_Counter
 ### 2. Configure Redis
 
 Make sure Redis is installed and running on your machine. The application is configured to connect to Redis on `localhost` at port `6379` by default.
-
+<hr>
 If you dont have redis installed do this:
 
 #### For Windows
