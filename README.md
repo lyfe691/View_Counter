@@ -105,7 +105,7 @@ View_Counter/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/example/visitorcounter/
+│   │   │   └── com/redis/visitorcounter/
 │   │   │       ├── VisitorCounterApplication.java  # Main application class
 │   │   │       └── VisitorCounterController.java   # Controller handling the visitor count
 │   │   └── resources/
