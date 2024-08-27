@@ -12,8 +12,8 @@
     <description>Simple Visitor Counter Application</description>
 
     <properties>
-        <java.version>11</java.version>
-        <spring.boot.version>2.7.2</spring.boot.version> 
+        <java.version>11</java.version> <!-- Using Java 11 -->
+        <spring.boot.version>2.7.2</spring.boot.version> <!-- Compatible Spring Boot version -->
     </properties>
 
     <dependencies>
@@ -32,10 +32,20 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${spring.boot.version}</version>
+                <version>${spring.boot.version}</version> <!-- Use the compatible version for Java 11 -->
             </plugin>
         </plugins>
     </build>
+
 </project>
