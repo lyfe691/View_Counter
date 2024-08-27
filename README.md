@@ -30,6 +30,47 @@ cd View_Counter
 
 Make sure Redis is installed and running on your machine. The application is configured to connect to Redis on `localhost` at port `6379` by default.
 
+If you dont have redis installed do this:
+
+#### For Windows
+You can't run redis on default on windows, you'll have to use a VM or the Windows Subsystem for Linux (WSL). This is how you can install it:
+
+1. **Powershell (Administator)** Run this and restart.
+```bash
+wsl --install
+```
+2. Now that you have WSL installed you can open your terminal and open a new tab as ubuntu or type ```wsl``` and enter the following commands:
+```bash
+sudo apt-get update
+sudo apt-get install redis
+```
+3. **Start Redis**
+```bash
+redis-server
+```
+#### For MacOS
+1. **Install Homebrew**
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+2. **Install Redis**
+```bash
+brew install redis
+```
+3. **Start Redis**
+```bash
+brew services start redis
+```
+#### For Linux
+1. **Install Redis**
+```bash
+sudo apt-get update
+sudo apt-get install redis
+```
+2. **Start Redis**
+```bash
+redis-server
+```
 ### 3. Build the Application
 
 Compile and package the application using Maven:
