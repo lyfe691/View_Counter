@@ -77,19 +77,12 @@ View_Counter/
 
 ## Technologies Used
 
-- **Java**: Programming language
-- **Spring Boot**: Framework for building the web application
-- **Redis**: In-memory data structure store used as a database for counting visits
-- **Maven**: Build and dependency management tool
-
-## Contributing
-
-If you would like to contribute to this project, please fork the repository and submit a pull request. Feel free to open issues for any bugs or feature requests.
+- **Java**
+- **Spring Boot**
+- **Redis**
+- **Maven**
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- Thanks to the creators of [Spring Boot](https://spring.io/projects/spring-boot) and [Redis](https://redis.io/) for providing the tools that make this project possible.
