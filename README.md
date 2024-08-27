@@ -125,5 +125,5 @@ View_Counter/
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the <a href="https://github.com/lyfe691/View_Counter?tab=MIT-1-ov-file">LICENSE</a> file for details.
 
